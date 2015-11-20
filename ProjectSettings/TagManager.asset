@@ -13,14 +13,14 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemy
+  - Ground
+  - Wall
+  - Bullet
+  - Health_Pickup
+  - Roof
+  - PlayerHead
   - 
   - 
   - 

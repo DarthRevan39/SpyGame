@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: 8771792792e91ab41ab8ec968946d772
-timeCreated: 1442986141
+guid: e8c632ac7b366384c9f877d35ebfe074
+timeCreated: 1448041114
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SpyIdle_0
-    21300002: SpyIdle_1
+    21300000: FatEnemyThrow_0
+    21300002: FatEnemyThrow_1
+    21300004: FatEnemyThrow_2
+    21300006: FatEnemyThrow_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -46,29 +48,49 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: SpyIdle_0
+    - name: FatEnemyThrow_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
-        width: 15
+        width: 30
         height: 32
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpyIdle_1
+    - name: FatEnemyThrow_1
       rect:
         serializedVersion: 2
-        x: 40
+        x: 32
         y: 0
-        width: 15
-        height: 31
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FatEnemyThrow_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FatEnemyThrow_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 30
+        height: 32
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: 8771792792e91ab41ab8ec968946d772
-timeCreated: 1442986141
+guid: cf9d90dca476b604da33ca523486b58d
+timeCreated: 1448039605
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SpyIdle_0
-    21300002: SpyIdle_1
+    21300000: SpyWalking_0
+    21300002: SpyWalking_1
+    21300004: SpyWalking_2
+    21300006: SpyWalking_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -28,7 +30,7 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -3
+  textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
     filterMode: 0
@@ -52,23 +54,43 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: SpyIdle_0
+    - name: SpyWalking_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
+        y: 0
+        width: 15
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpyWalking_1
+      rect:
+        serializedVersion: 2
+        x: 17
         y: 0
         width: 15
         height: 32
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpyIdle_1
+    - name: SpyWalking_2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 34
         y: 0
         width: 15
         height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpyWalking_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 15
+        height: 32
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

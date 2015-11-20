@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: 8771792792e91ab41ab8ec968946d772
-timeCreated: 1442986141
+guid: 1a36925f0e933ac428bc9e1356cbd08b
+timeCreated: 1448039637
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SpyIdle_0
-    21300002: SpyIdle_1
+    21300000: SpyShoot_0
+    21300002: SpyShoot_1
+    21300004: SpyShoot_2
+    21300006: SpyShoot_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,23 +54,43 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: SpyIdle_0
+    - name: SpyShoot_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 0
         y: 0
         width: 15
         height: 32
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpyIdle_1
+    - name: SpyShoot_1
       rect:
         serializedVersion: 2
-        x: 40
+        x: 16
         y: 0
         width: 15
-        height: 31
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpyShoot_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SpyShoot_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 15
+        height: 32
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

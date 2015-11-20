@@ -1,11 +1,13 @@
 fileFormatVersion: 2
-guid: 8771792792e91ab41ab8ec968946d772
-timeCreated: 1442986141
+guid: ac18a33d9e147484cb4f34f89d51b5dd
+timeCreated: 1448041246
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SpyIdle_0
-    21300002: SpyIdle_1
+    21300000: SkinnyEnemyShooting_0
+    21300002: SkinnyEnemyShooting_1
+    21300004: SkinnyEnemyShooting_2
+    21300006: SkinnyEnemyShooting_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -46,29 +48,49 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 62
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: SpyIdle_0
+    - name: SkinnyEnemyShooting_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 15
-        height: 32
+        x: 0
+        y: 1
+        width: 34
+        height: 63
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpyIdle_1
+    - name: SkinnyEnemyShooting_1
       rect:
         serializedVersion: 2
         x: 40
-        y: 0
-        width: 15
-        height: 31
+        y: 1
+        width: 34
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkinnyEnemyShooting_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 34
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SkinnyEnemyShooting_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1
+        width: 34
+        height: 63
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -8,10 +8,12 @@ public class MenuScript : MonoBehaviour {
     public Button startText;
     public Button exitText;
 
+    //public bool IsMenuActive { get; set; }
 
     // Use this for initialization
     void Start() {
 
+        //IsMenuActive = true;
         quitMenu = quitMenu.GetComponent<Canvas>();
         startText = startText.GetComponent<Button>();
         exitText = exitText.GetComponent<Button>();
