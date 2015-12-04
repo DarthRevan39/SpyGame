@@ -28,7 +28,7 @@ TagManager:
   - Pickups
   - Ground
   - Enemy Ammo
-  - 
+  - Background
   - 
   - 
   - 
@@ -55,6 +55,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 1535931219
+    locked: 0
+  - name: Ground
+    uniqueID: 142061027
     locked: 0
   - name: Character
     uniqueID: 2511236001

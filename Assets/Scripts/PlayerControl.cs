@@ -100,7 +100,7 @@ public class PlayerControl : MonoBehaviour
 		transform.localScale = theScale;
 	}
 
-    /*
+    
 	public IEnumerator Taunt()
 	{
 		// Check the random chance of taunting.
@@ -137,5 +137,5 @@ public class PlayerControl : MonoBehaviour
 			// Otherwise return this index.
 			return i;
 	}
-    */
+    
 }

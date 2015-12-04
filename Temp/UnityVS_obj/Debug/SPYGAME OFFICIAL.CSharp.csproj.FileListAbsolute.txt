@@ -1,0 +1,17 @@
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\Mono.Cecil.dll
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_obj\Debug\SPYGAME OFFICIAL.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\Mono.Cecil.xml
+C:\Users\Kyle\Documents\SPYGAME OFFICIAL\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
