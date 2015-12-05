@@ -1,0 +1,230 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:Assets/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll
+-r:Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data\Managed/Mono.Cecil.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-define:UNITY_5_2_2
+-define:UNITY_5_2
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_REFLECTION_BUFFERS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:CROSS_PLATFORM_INPUT
+Assets/Scripts/BackgroundParallax.cs
+Assets/Scripts/BackgroundPropSpawner.cs
+Assets/Scripts/Bomb.cs
+Assets/Scripts/BombPickup.cs
+Assets/Scripts/CameraFollow.cs
+Assets/Scripts/Destroyer.cs
+Assets/Scripts/Enemy.cs
+Assets/Scripts/FollowPlayer.cs
+Assets/Scripts/Gun.cs
+Assets/Scripts/HealthPickup.cs
+Assets/Scripts/LayBombs.cs
+Assets/Scripts/LockAspectRatio.cs
+Assets/Scripts/MenuScript.cs
+Assets/Scripts/Pauser.cs
+Assets/Scripts/PickupSpawner.cs
+Assets/Scripts/PlayerControl.cs
+Assets/Scripts/PlayerHealth.cs
+Assets/Scripts/PlayerMovement.cs
+Assets/Scripts/Remover.cs
+Assets/Scripts/Rocket.cs
+Assets/Scripts/Score.cs
+Assets/Scripts/ScoreShadow.cs
+Assets/Scripts/SetParticleSortingLayer.cs
+Assets/Scripts/Spawner.cs
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/CrossPlatformInput/PlatformSpecific/MobileInput.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/CrossPlatformInput/PlatformSpecific/StandaloneInput.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/CrossPlatformInput/Scripts/VirtualInput.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Antialiasing.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Bloom.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/BloomOptimized.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Blur.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/BlurOptimized.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ContrastEnhance.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ContrastStretch.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/CreaseShading.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/DepthOfField.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/EdgeDetection.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Fisheye.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/GlobalFog.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Grayscale.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ImageEffectBase.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ImageEffects.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/MotionBlur.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ScreenOverlay.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/SepiaTone.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/TiltShift.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Tonemapping.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Triangles.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Twirl.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/UnityStandardAssets/Effects/ImageEffects/Scripts/Vortex.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/ai/AIFollower.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/ai/AIMoveOnSight.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/ai/AIShootOnSight.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/ai/AISimpleWalk.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/ai/AutoRotate.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/ai/KillPlayerOnTouch.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/ai/PathedProjectile.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/ai/PathedProjectileSpawner.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/ai/Stompable.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/camera/CameraController.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/camera/ParallaxCamera.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/camera/ParallaxElement.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CanTakeDamage.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CharacterBehavior.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CharacterBehaviorParameters.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CharacterBehaviorPermissions.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CharacterBehaviorState.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CharacterJetpack.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CharacterMelee.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CharacterShoot.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CorgiController.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CorgiControllerParameters.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CorgiControllerPhysicsVolume2D.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/CorgiControllerState.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/GiveDamageToPlayer.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/IPlayerRespawnListener.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/PlayerBounds.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/character/SuperHipsterBrosCharacter.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/environment/BackgroundTree.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/environment/BonusBlock.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/environment/FallingPlatform.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/environment/Jumper.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/environment/Ladder.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/environment/LadderTop.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/environment/RandomSprite.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/environment/Teleporter.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/environment/Water.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/BackgroundMusic.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/CheckPoint.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/FinishLevel.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/GameManager.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/InputManager.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/LevelBackground.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/LevelLimits.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/LevelManager.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/LevelRestarter.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/SoundManager.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gameManagement/StartScreen.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gui/DialogueBox.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gui/DialogueZone.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gui/GUIManager.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gui/HealthBar.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gui/HipsterGUI.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gui/JetpackBar.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gui/LevelSelector.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gui/LevelSelectorGUI.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/gui/PauseButton.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/helpers/AutoDestroyParticleSystem.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/helpers/CorgiTools.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/helpers/ExtensionMethods.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/helpers/Health.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/helpers/PathDefinition.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/helpers/PathFollow.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/helpers/PersistentHumbleSingleton.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/helpers/PersistentSingleton.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/helpers/VisibleParticle.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/items/Coin.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/items/Mushroom.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/items/Stimpack.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/items/TimeModifier.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/items/WeaponUpgrade.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/weapons/MeleeWeapon.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/weapons/Projectile.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/weapons/SimpleProjectile.cs"
+"Assets/SpyGame Scripts/Extra Assets/scripts/weapons/Weapon.cs"
+"Assets/SpyGame Scripts/FatEnemyBehavior.cs"
+"Assets/SpyGame Scripts/PlayerController.cs"
+"Assets/SpyGame Scripts/PlayerPhysics.cs"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"

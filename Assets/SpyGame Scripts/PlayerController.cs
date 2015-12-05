@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
 
     //Player handling
     public float speed = 8;
-    public float acceleration = 12;
+    public float acceleration = 100;
+    public Vector2 position;
 
     private float currentSpeed;
     private float targetSpeed;
@@ -39,6 +40,7 @@ public class PlayerController : MonoBehaviour
         {
             transform.localScale = new Vector3(-10, 10, 1);
         }
+        position = transform.position;
     }
 
     private float incrementTowards(float n, float target, float a)
