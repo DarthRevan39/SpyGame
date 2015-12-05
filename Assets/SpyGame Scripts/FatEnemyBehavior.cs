@@ -3,29 +3,62 @@ using System.Collections;
 
 public class FatEnemyBehavior : MonoBehaviour {
 
-    private PlayerController playerController;
     public Vector2 position;
     public float xPos;
+    [HideInInspector]
+    public int countSec = 0;
+    private GameObject Spy;
 
-	// Use this for initialization
-	void Start ()
+    public int potatoSpeed = 10;
+    public GameObject Potato;
+    public Transform launchPoint;
+
+    // Use this for initialization
+    void Start()
     {
-        playerController = GetComponent<PlayerController>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        Spy = GameObject.Find("Spy");
+
+
+    }
+
+    // Update is called once per frame
+    void Update() {
 
         position = transform.position;
-        xPos = position.x;
+        xPos = this.position.x;
 
-        if ( playerController.position.x > xPos)
+        if (Spy.transform.position.x > this.position.x)
+        {
+            transform.localScale = new Vector3(-10, 10, 1);
+        }
+        else if (Spy.transform.position.x < this.position.x)
         {
             transform.localScale = new Vector3(10, 10, 1);
         }
-        else if (playerController.position.x < xPos)
+
+
+    }
+
+    void shootPotato()
+    {
+
+        if (countSec < 10)
         {
-            transform.localScale = new Vector3(-10, 10, 1);
+            countSec += 1;
+
+        }
+        else
+        {
+            firePotato();
+            countSec = 0;
+        }
+    }
+
+    void firePotato()
+    {
+        if (Spy.transform.position.x < transform.position.x)
+        {
+            potatoSpeed = -potatoSpeed;
         }
     }
 }
